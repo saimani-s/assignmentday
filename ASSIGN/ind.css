@@ -1,0 +1,103 @@
+.bestseller {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  margin: auto;
+  width: 90%;
+  margin-top: 8vh;
+}
+.bs1 > img,
+.bs2 > img,
+.bs3 > img,
+.bs4 > img {
+  width: 250px;
+  height: 280px;
+  border-radius: 25px;
+  background-size: cover;
+  background-position: center;
+}
+.dis {
+  background-color: red;
+  color: white;
+  padding: 1vh;
+  border-radius: 25px;
+  position: absolute;
+  left: 21px;
+  bottom: 370px;
+}
+
+.bs1 {
+  width: 250px;
+  height: 400px;
+  border: 2px solid white;
+  padding: 2vh;
+  box-shadow: 3px 3px 10px grey;
+  cursor: pointer;
+  border-radius: 25px;
+  position: relative;
+}
+
+.bs1 > h4,
+.bs2 > h4,
+.bs3 > h4,
+.bs4 > h4 {
+  font-size: 15px;
+}
+.bs1:hover {
+  box-shadow: none;
+}
+.bs2:hover {
+  box-shadow: none;
+}
+.bs3:hover {
+  box-shadow: none;
+}
+.bs4:hover {
+  box-shadow: none;
+}
+.bb {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.j > img {
+  height: 16px;
+  width: 16px;
+}
+.k > img {
+  height: 14px;
+  width: 14px;
+}
+.bot {
+  border: white solid 1px;
+  box-shadow: 3px 3px 10px grey;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 8px;
+  width: 230px;
+
+  text-align: center;
+  height: 90px;
+}
+.w {
+  background-color: purple;
+  color: white;
+  padding: 1vh;
+  text-align: center;
+  font-weight: bolder;
+  position: relative;
+  border-radius: 0px 25px 25px 0px;
+  left: 9px;
+  bottom: 7.9px;
+  height: 92px;
+  width: 500px;
+}
+.w > span {
+  margin: auto;
+  width: 10px;
+}
